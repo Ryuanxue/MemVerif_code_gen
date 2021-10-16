@@ -1,0 +1,8 @@
+This dictory inlcude three steps:
+1.proprocess:get information of source,including line nmuber,
+source name,funname,etc.
+2.get buoun according to aliase name.
+3.instument according to bound.
+
+some passes above use tinyxml2 to generate xmlfile and parse xmlfile,
+so include header file and implementation of tinyxml2 in this dictory.

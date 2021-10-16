@@ -1,0 +1,3 @@
+clang++ printpass1.cpp tinyxml2.cpp -g3 -fPIC -shared -o libprintpass1.so
+clang++ proprocesspass.cpp tinyxml2.cpp -g3 -fPIC -shared -o libpprocesspass.so
+

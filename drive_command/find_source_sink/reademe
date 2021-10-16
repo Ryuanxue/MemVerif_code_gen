@@ -1,0 +1,10 @@
+test_instrument.py: call python3 main.py for every .ll file, need to specify the path of .ll file.
+
+main.py: Deal with one .ll file, nedd to specify the filename of .ll file.
+ in this file,first proprocess .ll to generator xml, 
+then aliase analysis to get aliase and call getbound.py to get bound according to aliase, 
+last, instrument in .ll file accorrding to bound.
+
+
+getbound.py: do aliase nalysis calling svf based on srcname. then call getboundpass to get bound.(discard)
+
